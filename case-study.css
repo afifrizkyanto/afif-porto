@@ -119,6 +119,35 @@
 .outcome-grid h3 { margin-bottom: 16px; }
 .outcome-grid p + p { margin-top: 14px; }
 
+.case-figma-cta {
+  display: flex;
+  justify-content: center;
+  padding: 34px 0 0;
+}
+
+.case-figma-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 14px;
+  padding: 15px 24px;
+  border: 2px solid var(--case-ink);
+  color: var(--case-ink);
+  font-family: Poppins, Roboto, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.2;
+  text-decoration: none;
+  transition: background .2s, color .2s;
+}
+
+.case-figma-button span { font-size: 20px; line-height: 1; }
+
+.case-figma-button:hover,
+.case-figma-button:focus-visible {
+  background: var(--case-ink);
+  color: var(--case-surface);
+}
+
 .case-footer {
   max-width: 1440px;
   margin: 0 auto;
@@ -151,6 +180,7 @@
   .case-callout { padding: 20px; }
   .case-callout p { font-size: 17px; }
   .outcome-grid { grid-template-columns: 1fr; gap: 16px; }
+  .case-figma-cta { padding-top: 24px; }
   .case-footer { padding: 24px 22px 35px; display: block; font-size: 13px; }
   .case-footer a { display: inline-block; margin-top: 12px; }
 }
